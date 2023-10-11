@@ -1,13 +1,13 @@
 # AWS-Python
 All AWS Python Boto3 Automation and inventory scripts:purple_heart: :love_you_gesture: :muscle:
 
-`IAM:`:cowboy_hat_face:
+`IAM:` :cowboy_hat_face:
 
-VPC:
+`VPC:` :wink:
 
-S3:
+`S3:` :smiling_face_with_three_hearts:
 
-Serverless (Lambda):
+`Serverless (Lambda):` :stuck_out_tongue_winking_eye:
 
-CI/CD:
+`CI/CD:` :face_in_clouds:
 
