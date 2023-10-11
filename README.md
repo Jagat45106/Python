@@ -1,9 +1,9 @@
 ![alt text](https://github.com/Jagat45106/AWS-Python/blob/main/pythonboto3.png)
 
-<H1># AWS-Python-Boto3</H1> 
+<H1>AWS-Python-Boto3</H1> 
 <H2>All AWS Python Boto3 Automation and inventory scripts:purple_heart: :love_you_gesture: :muscle:</H2>
 
-`IAM:` :cowboy_hat_face:
+<H4>`IAM:` :cowboy_hat_face:</H4>
 
 `VPC:` :wink:
 
