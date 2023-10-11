@@ -4,7 +4,13 @@
 <H2>All AWS Python Boto3 Automation and inventory scripts:purple_heart: :love_you_gesture: :muscle:</H2>
 
 `IAM:` :cowboy_hat_face:
- - IAM list All users
+ - List All IAM Users - With All Filed
+ - List IAM users who has access key not used in last 30 days
+ - List IAM users where access key not rotated in last 60 days
+ - List IAM users who has inactive access keys
+ - List IAM role with last activity None
+ - List IAM policy with full administrator access
+ - Script to notify when new new user created
 
 `VPC:` :wink:
 
