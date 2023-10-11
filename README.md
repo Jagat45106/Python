@@ -1,6 +1,4 @@
-![alt text](https://github.com/Jagat45106/AWS-Python/blob/main/pythonboto3.png "Logo")
-
-
+![alt text](https://github.com/Jagat45106/AWS-Python/blob/main/pythonboto3.png)
 
 # AWS-Python
 All AWS Python Boto3 Automation and inventory scripts:purple_heart: :love_you_gesture: :muscle:
