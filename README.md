@@ -4,6 +4,7 @@
 <H2>All AWS Python Boto3 Automation and inventory scripts:purple_heart: :love_you_gesture: :muscle:</H2>
 
 `IAM:` :cowboy_hat_face:
+ - IAM list All users
 
 `VPC:` :wink:
 
