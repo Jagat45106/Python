@@ -1,0 +1,8 @@
+{
+  "run_jobs_on_pr":
+  [
+    {
+      "job_name": "Devops_E2E_Tests"
+    }
+  ]
+}
