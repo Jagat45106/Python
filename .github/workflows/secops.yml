@@ -2,6 +2,9 @@ name: Gitleaks Checks
 
 on:
   pull_request:
+    types:
+      - opened
+      - synchronize
 
 jobs:
   gitleaks:
