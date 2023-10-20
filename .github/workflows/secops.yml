@@ -1,0 +1,30 @@
+name: Gitleaks Checks
+
+on:
+  pull_request:
+
+jobs:
+  gitleaks:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v2
+
+    - name: Install GitLeaks
+      run: |
+        git clone https://github.com/gitleaks/gitleaks.git
+        cd gitleaks
+        make build
+      shell: bash
+
+    - name: Run GitLeaks
+      id: gitleaks
+      run: |
+        gitleaks --path . --report=full
+        echo "::set-output name=gitleaks-results::$(cat full-report.json)"
+      continue-on-error: true
+
+    - name: Show Gitleaks Results
+      run: echo "$GITHUB_WORKSPACE/$GITHUB_REPOSITORY/full-report.json"
+      continue-on-error: true
