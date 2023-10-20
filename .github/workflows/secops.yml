@@ -2,6 +2,9 @@ name: Gitleaks Checks
 
 on:
   pull_request:
+    types:
+      - opened
+      - synchronize
 
 jobs:
   gitleaks:
@@ -21,10 +24,5 @@ jobs:
     - name: Run GitLeaks
       id: gitleaks
       run: |
-        gitleaks --path . --report=full
-        echo "::set-output name=gitleaks-results::$(cat full-report.json)"
-      continue-on-error: true
-
-    - name: Show Gitleaks Results
-      run: echo "$GITHUB_WORKSPACE/$GITHUB_REPOSITORY/full-report.json"
+        gitleaks detect -f csv
       continue-on-error: true
