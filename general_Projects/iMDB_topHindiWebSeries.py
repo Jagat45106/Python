@@ -1,3 +1,6 @@
+#Owner: Jagat Pradhan
+#Title: Cloud Security and DevSecOps Professional
+
 from bs4 import BeautifulSoup
 import requests
 from tabulate import tabulate
